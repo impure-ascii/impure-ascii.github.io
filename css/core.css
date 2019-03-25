@@ -26,6 +26,12 @@ html,body {
   width: 352px;
 }
 
+.pack .faded {
+  vertical-align: top;
+  height: 352px;
+  overflow: hidden;
+}
+
 .half {
   margin: 10px 5px;
   width: 176px;

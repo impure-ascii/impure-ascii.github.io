@@ -1,0 +1,113 @@
+.faded {
+  position: relative;
+  display: inline-block;
+  color: black; }
+  .faded:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-collapse: separate; }
+  .faded.faded-left:after {
+    box-shadow: inset 40px 0 40px -16px; }
+  .faded.faded-right:after {
+    box-shadow: inset -40px 0 40px -16px; }
+  .faded.faded-top:after {
+    box-shadow: inset 0 40px 40px -16px; }
+  .faded.faded-bottom:after {
+    box-shadow: inset 0 -40px 40px -16px; }
+  .faded.faded-left.faded-right:after {
+    box-shadow: inset 40px 0 40px -16px, inset -40px 0 40px -16px; }
+  .faded.faded-left.faded-top:after {
+    box-shadow: inset 40px 40px 40px -16px; }
+  .faded.faded-right.faded-bottom:after {
+    box-shadow: inset -40px -40px 40px -16px; }
+  .faded.faded-top.faded-right:after {
+    box-shadow: inset -40px 40px 40px -16px; }
+  .faded.faded-top.faded-bottom:after {
+    box-shadow: inset 0 40px 40px -16px, inset 0 -40px 40px -16px; }
+  .faded.faded-left.faded-bottom:after {
+    box-shadow: inset 40px -40px 40px -16px; }
+  .faded.faded-top.faded-right.faded-bottom:after {
+    box-shadow: inset -20px 0 40px 16px; }
+  .faded.faded-left.faded-right.faded-bottom:after {
+    box-shadow: inset 0 -20px 40px 16px; }
+  .faded.faded-left.faded-top.faded-bottom:after {
+    box-shadow: inset 20px 0 40px 16px; }
+  .faded.faded-left.faded-top.faded-right:after {
+    box-shadow: inset 0 20px 40px 16px; }
+  .faded.faded-all:after, .faded.faded-left.faded-top.faded-right.faded-bottom:after {
+    box-shadow: inset 0 0 40px 16px; }
+  .faded.faded-narrow.faded-left:after {
+    box-shadow: inset 20px 0 20px -10px; }
+  .faded.faded-narrow.faded-right:after {
+    box-shadow: inset -20px 0 20px -10px; }
+  .faded.faded-narrow.faded-top:after {
+    box-shadow: inset 0 20px 20px -10px; }
+  .faded.faded-narrow.faded-bottom:after {
+    box-shadow: inset 0 -20px 20px -10px; }
+  .faded.faded-narrow.faded-left.faded-right:after {
+    box-shadow: inset 20px 0 20px -10px, inset -20px 0 20px -10px; }
+  .faded.faded-narrow.faded-left.faded-top:after {
+    box-shadow: inset 20px 20px 20px -10px; }
+  .faded.faded-narrow.faded-right.faded-bottom:after {
+    box-shadow: inset -20px -20px 20px -10px; }
+  .faded.faded-narrow.faded-top.faded-right:after {
+    box-shadow: inset -20px 20px 20px -10px; }
+  .faded.faded-narrow.faded-top.faded-bottom:after {
+    box-shadow: inset 0 20px 20px -10px, inset 0 -20px 20px -10px; }
+  .faded.faded-narrow.faded-left.faded-bottom:after {
+    box-shadow: inset 20px -20px 20px -10px; }
+  .faded.faded-narrow.faded-top.faded-right.faded-bottom:after {
+    box-shadow: inset -10px 0 20px 10px; }
+  .faded.faded-narrow.faded-left.faded-right.faded-bottom:after {
+    box-shadow: inset 0 -10px 20px 10px; }
+  .faded.faded-narrow.faded-left.faded-top.faded-bottom:after {
+    box-shadow: inset 10px 0 20px 10px; }
+  .faded.faded-narrow.faded-left.faded-top.faded-right:after {
+    box-shadow: inset 0 10px 20px 10px; }
+  .faded.faded-narrow.faded-all:after, .faded.faded-narrow.faded-left.faded-top.faded-right.faded-bottom:after {
+    box-shadow: inset 0 0 20px 10px; }
+  .faded.faded-wide.faded-left:after {
+    box-shadow: inset 80px 0 80px -28px; }
+  .faded.faded-wide.faded-right:after {
+    box-shadow: inset -80px 0 80px -28px; }
+  .faded.faded-wide.faded-top:after {
+    box-shadow: inset 0 80px 80px -28px; }
+  .faded.faded-wide.faded-bottom:after {
+    box-shadow: inset 0 -80px 80px -28px; }
+  .faded.faded-wide.faded-left.faded-right:after {
+    box-shadow: inset 80px 0 80px -28px, inset -80px 0 80px -28px; }
+  .faded.faded-wide.faded-left.faded-top:after {
+    box-shadow: inset 80px 80px 80px -28px; }
+  .faded.faded-wide.faded-right.faded-bottom:after {
+    box-shadow: inset -80px -80px 80px -28px; }
+  .faded.faded-wide.faded-top.faded-right:after {
+    box-shadow: inset -80px 80px 80px -28px; }
+  .faded.faded-wide.faded-top.faded-bottom:after {
+    box-shadow: inset 0 80px 80px -28px, inset 0 -80px 80px -28px; }
+  .faded.faded-wide.faded-left.faded-bottom:after {
+    box-shadow: inset 80px -80px 80px -28px; }
+  .faded.faded-wide.faded-top.faded-right.faded-bottom:after {
+    box-shadow: inset -40px 0 80px 28px; }
+  .faded.faded-wide.faded-left.faded-right.faded-bottom:after {
+    box-shadow: inset 0 -40px 80px 28px; }
+  .faded.faded-wide.faded-left.faded-top.faded-bottom:after {
+    box-shadow: inset 40px 0 80px 28px; }
+  .faded.faded-wide.faded-left.faded-top.faded-right:after {
+    box-shadow: inset 0 40px 80px 28px; }
+  .faded.faded-wide.faded-all:after, .faded.faded-wide.faded-left.faded-top.faded-right.faded-bottom:after {
+    box-shadow: inset 0 0 80px 28px; }
+
+.panel {
+  background-color: blue;
+  padding: 1em;
+  color: white; }
+  .panel .faded {
+    color: blue; }
+
+img {
+  max-width: 100%; }
